@@ -14,7 +14,7 @@ int main() {
 
     i = 0;
     while (i <= n - 1) {
-        cout << "Qual'è la marca della tua automobile?" << endl;
+        cout << "Qual'è il mome della tua automobile?" << endl;
         cin >> nomi[i];
         r = 1 + rand() % n;
         R[i] = r;
